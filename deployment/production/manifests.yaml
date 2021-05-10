@@ -186,13 +186,11 @@ spec:
           - name: AD_SERVICE_ADDR
             value: "adservice:9555"
           - name: ENV_PLATFORM
-            value: "gcp"
+            value: "azure"
           - name: DISABLE_TRACING
             value: "1"
           - name: DISABLE_PROFILER
             value: "1"
-          - name: ENV_PLATFORM
-            value: "azure"
           resources:
             requests:
               cpu: 100m
