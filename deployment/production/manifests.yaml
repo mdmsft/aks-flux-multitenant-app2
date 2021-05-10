@@ -191,6 +191,8 @@ spec:
             value: "1"
           - name: DISABLE_PROFILER
             value: "1"
+          - name: ENV_PLATFORM
+            value: "AWS"
           resources:
             requests:
               cpu: 100m
