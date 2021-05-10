@@ -192,7 +192,7 @@ spec:
           - name: DISABLE_PROFILER
             value: "1"
           - name: ENV_PLATFORM
-            value: "Azure"
+            value: "azure"
           resources:
             requests:
               cpu: 100m
