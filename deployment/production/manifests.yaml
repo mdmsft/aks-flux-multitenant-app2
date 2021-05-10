@@ -554,9 +554,9 @@ spec:
 ---
 apiVersion: v1
 kind: Service
-namespace: app2
 metadata:
   name: redis-cart
+  namespace: app2
 spec:
   type: ClusterIP
   selector:
